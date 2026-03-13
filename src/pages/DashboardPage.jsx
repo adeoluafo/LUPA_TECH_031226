@@ -1,5 +1,5 @@
 import { dashboardData } from "../data/dashboardData";
-import Header from "../components/layout/Header";
+import Header from "../Components/layout/Header";
 import ClientProfileCard from "../components/dashboard/ClientProfileCard";
 import ScoreTrackingCard from "../components/dashboard/ScoreTrackingCard";
 import PromptMonitoringCard from "../components/dashboard/PromptMonitoringCard";
