@@ -1,7 +1,7 @@
 // src/App.jsx
 
-import LandingPage from "./pages/LandingPage";
+import EmployeeLanding from "./pages/EmployeeLanding";
 
 export default function App() {
-  return <LandingPage />;
+  return <EmployeeLanding />;
 }
