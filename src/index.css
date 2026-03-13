@@ -1,12 +1,5 @@
 @import "tailwindcss";
 
-@theme {
-  --color-primaryblue: #1e3a8a;
-  --color-lightblue: #eff6ff;
-  --color-accentblue: #3b82f6;
-  --color-white: #ffffff;
-}
-
 html,
 body,
 #root {
@@ -15,21 +8,5 @@ body,
 
 body {
   margin: 0;
-  background-color: #f7f8fb;
-  font-family: Inter, sans-serif;
-  color: #0f172a;
-}
-
-@layer components {
-  .btn-primary {
-    @apply rounded-xl bg-primaryblue px-5 py-3 font-medium text-white transition hover:bg-accentblue;
-  }
-
-  .btn-secondary {
-    @apply rounded-xl border border-accentblue bg-white px-4 py-2 font-medium text-primaryblue transition hover:bg-lightblue;
-  }
-
-  .pill {
-    @apply inline-flex items-center rounded-full bg-lightblue px-3 py-1 text-sm font-medium text-primaryblue;
-  }
+  background: #f7f8fb;
 }

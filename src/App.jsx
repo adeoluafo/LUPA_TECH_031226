@@ -1,5 +1,7 @@
-import DashboardPage from "./pages/DashboardPage";
-
 export default function App() {
-  return <DashboardPage />;
+  return (
+    <div className="bg-red-500 text-white p-10 text-4xl font-bold">
+      Tailwind is working
+    </div>
+  );
 }
